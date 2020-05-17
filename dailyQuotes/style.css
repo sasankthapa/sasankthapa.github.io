@@ -1,0 +1,29 @@
+body{
+    text-align: center;
+    width:100vw;
+    margin:0;
+}
+
+header{
+    height: 100%;
+}
+
+main{
+    margin-top:8vh;
+    padding: 2vh auto;
+}
+
+#joke1{
+    margin-top:9vh;
+    cursor:pointer;
+    color:#474e91;
+}
+
+#joke2{
+    transform: translateX(30px);
+    transition: opacity 1s ease-in;
+}
+
+.hidden{
+    opacity: 0;
+}
