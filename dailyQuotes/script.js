@@ -23,7 +23,8 @@ if(today!=d){
     var advice,joke;
     fetch('https://official-joke-api.appspot.com/random_joke').then((response)=>{
         response.json().then((response)=>{
-            adviceEle.innerHTML=response.slip.advice
+            joke1.innerHTML=response.setup
+            joke2.innerHTML=response.punchline
             localStorage.setItem("Joke",JSON.stringify(response))
         })
     })
